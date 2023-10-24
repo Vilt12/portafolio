@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+.seccion-1{
+  padding-bottom:5% ;
+
+  
+  background: #000000; 
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+
+
+}
+
+.seccion-1-titulo{
+
+    font-size: 4vh;
+    font-family: 'Tilt Neon', sans-serif;
+  color: #ffffff;
+text-shadow: 0 0 10px #ffffff;
+   animation: rgb 2s alternate infinite;
+
+}
+.seccion-presentacion{
+    width: 50%;
+    color:#ff8800;
+    
+}
+
+.seccion-1-presentacion{
+  
+    font-size: 2vh;
+    font-family: 'Gruppo', sans-serif;
+}
+.seccion-1-presentacion img{
+  width: 20%;
+height: 30%;
+  border-radius: 5%;
+  border: 2px solid #ffffff;
+margin-top: 10%;
+animation: foto 1s infinite alternate;
+
+}
+@media (max-width: 920px) {
+  .seccion-1-titulo {
+    font-size: 2.5vh;
+    text-shadow: 0 0 5px #ffffff;
+  }
+  
+  .seccion-1-presentacion {
+    font-size: 1.5vh; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+  }
+  
+  .seccion-1-presentacion img {
+    width: 40%;
+    height: 30%;
+  }
+  
+  .seccion-1 {
+    flex-direction: column; /* Cambia la dirección de flexbox a columna para dispositivos más pequeños */
+    text-align: center;
+    padding: 10% 0; /* Aumenta el espacio en la parte superior y inferior */
+  }
+  
+  .seccion-1-titulo {
+    margin-top: 5%; /* Añade un poco de margen en la parte superior del título */
+  }
+}
+
+@media (max-width: 576px) {
+  .seccion-1-titulo {
+    font-size: 1.5vh;
+    text-shadow: 0 0 5px #ffffff;
+  }
+  
+  .seccion-1-presentacion {
+    font-size: 1.5vh; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+  }
+  
+  .seccion-1-presentacion img {
+    width: 40%;
+    height: 30%;
+  }
+  
+  .seccion-1 {
+    flex-direction: column; /* Cambia la dirección de flexbox a columna para dispositivos más pequeños */
+    text-align: center;
+    padding: 10% 0; /* Aumenta el espacio en la parte superior y inferior */
+  }
+  
+  .seccion-1-titulo {
+    margin-top: 5%; /* Añade un poco de margen en la parte superior del título */
+  }
+}
+
+
+
+@keyframes foto {
+    0%{
+     transform: translateY(-5px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+}
