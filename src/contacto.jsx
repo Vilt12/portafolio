@@ -2,8 +2,8 @@ import "./contacto.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
 import { useState } from "react";
 
 
@@ -44,6 +44,7 @@ function Contacto() {
   
   window.addEventListener("scroll", handleScroll);
   window.addEventListener("load", handleScroll);
+  
     return(
         <>
         <div className="seccion-contacto">
@@ -65,48 +66,46 @@ function Contacto() {
        
           <div className="seccion-contacto-sub">
 
-
-          <div onClick={() => copyToClipboard('https://www.instagram.com/tom.exe2/')} className="tarjeta-contacto">
-            <span><FontAwesomeIcon  className="fa-fade " icon={faInstagram} /></span>
+<a className="tarjeta-contacto" href="https://www.instagram.com/tom.exe2/">
+        
+            <span><FontAwesomeIcon color="#ffffff"  className="fa-fade " icon={faInstagram} /></span>
           <div  className="tarjeta-contacto-titulo">
              <h4>Instagram:</h4>
           </div>
           
            
-            <h4>https://www.instagram.com/tom.exe2/</h4>
+            <p>Enviar mensaje a instagram</p>
          
+          </a>
           </div>
-          </div>
+          <div  className="seccion-contacto-sub">
+
+<a className="tarjeta-contacto" href="https://wa.me/542634670547">
+
+<span><FontAwesomeIcon color="#ffffff"  className="fa-shake "  icon={faWhatsapp} /></span>
+<div   className="tarjeta-contacto-titulo">
+  
+  <h4>Whatsapp:</h4>
+
+  </div>
+<p>Enviar mensaje a WhatsApp </p>
+
+</a>
+</div>
           <div className="seccion-contacto-sub">
 
-       
-<div onClick={() => copyToClipboard('tomasvil2125@gmail.com')}className="tarjeta-contacto">
-  
-<span><FontAwesomeIcon  className="fa-beat " icon={faEnvelope} /></span>
+   <a className="tarjeta-contacto" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=tomasvil2125@gmail.com"> 
+<span><FontAwesomeIcon color="#ffffff"  className="fa-beat " icon={faEnvelope} /></span>
 <div   className="tarjeta-contacto-titulo">
   <h4>Gmail:</h4>
 </div>
 
 
-<h4>tomasvil2125@gmail.com</h4>
+<p>Enviar mensaje a gmail</p>
 
+</a>   
 </div>
-</div>
-<div  className="seccion-contacto-sub">
 
-       
-<div onClick={() => copyToClipboard('263-467-0547')} className="tarjeta-contacto">
-  
-<span><FontAwesomeIcon  className="fa-shake " icon={faPhone} /></span>
-<div   className="tarjeta-contacto-titulo">
-  
-  <h4>Telefono:</h4>
-
-  </div>
-<h4>263-467-0547</h4>
-
-</div>
-</div>
 
 <div className="seccion-contacto-sub">
 
@@ -117,9 +116,9 @@ function Contacto() {
 <div  className="tarjeta-contacto-titulo">
   
   <h4>Discord:</h4>
-
   </div>
-<h4>Vilt#4261</h4>
+
+<p>Vilt#4261</p>
 
 </div>
 </div>

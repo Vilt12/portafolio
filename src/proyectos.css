@@ -28,7 +28,7 @@
     padding: 1vh 3vh 0vh 3vh;
  
     border: 3px solid #00ffc8;
-    box-shadow: 0px 10px 0px 0px #019777, 0px 10px 5px 0px #ffffff ;
+    box-shadow:0px 10px 0px 0px #019777, 0px 10px 5px 0px #ffffff ;
     border-radius: 5vh;
 }
 .seccion-proyectos-tarjeta h4{
@@ -67,6 +67,7 @@
    transform: translateY(-2vh);
    transition: 0.2s ease;
    box-shadow: 0px 10px 0px 0px #019777, 0px 3vh 3vh  #ffffff ;
+
     
 }
 @media (max-width:1300px){

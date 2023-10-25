@@ -19,7 +19,7 @@ window.addEventListener("load", checkVisibility);
         <div className="seccion-conocimientos">
             <div className="seccion-conocimientos-titulo">
                  <h4>
-                Mis conocimientos
+                Conocimientos
             </h4>
             </div>
            <div className="seccion-conocimientos-caja-img"> 

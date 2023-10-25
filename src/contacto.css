@@ -5,8 +5,8 @@ color: #ffffff;
 display: inline-block;
 width: 100%;
 padding-bottom: 10%;
-border-top:2px solid #00ffc8 ;
-border-bottom:2px solid #00ffc8 ;
+border-top:2px solid #35fcff ;
+border-bottom:2px solid #35fcff ;
 
 }
 
@@ -42,6 +42,7 @@ border-bottom:2px solid #00ffc8 ;
  display: flex;
  align-items: center;
     transition: 0.4s;
+    text-decoration: none;
 /*  animation-name: Tarjetas;
  animation-duration: 2s; */
  cursor: pointer;
@@ -62,6 +63,12 @@ font-size: 4vh;
 }
 .tarjeta-contacto h4{
     padding: 0 0 0 2vh;
+}
+.tarjeta-contacto p{
+    padding: 0 0 0 2vh; 
+    color: #ffffff; 
+    font-weight: 700;
+
 }
 .tarjeta-contacto:hover{
     background: #00ffc8;
