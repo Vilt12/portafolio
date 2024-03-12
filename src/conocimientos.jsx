@@ -40,6 +40,13 @@ window.addEventListener("load", checkVisibility);
             
           
             </div>
+            <div className="seccion-conocimientos-imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt=""  height={"100px"} width={"100px"}/>
+                   <img src="https://www.manualweb.net/img/logos/java.png" alt=""  height={"100px"} width={"100px"}/>      
+          
+            
+          
+            </div>
            </div>
             
         </div>

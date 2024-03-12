@@ -22,7 +22,7 @@ function Contacto() {
     // Indicar al usuario que se ha copiado con éxito
     setCopied(true);
 
-    // Opcional: Restablecer el estado después de unos segundos
+    // Restablecer el estado después de unos segundos
     setTimeout(() => {
       setCopied(false);
     }, 2000); // Restablecer después de 2 segundos
