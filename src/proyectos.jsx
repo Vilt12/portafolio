@@ -42,6 +42,14 @@ function Proyectos() {
          <a id="Carta-F" href="https://foro-gold.vercel.app/"><img src={"https://cdn-icons-png.flaticon.com/512/9826/9826013.png"} alt=""/></a>
          <h4 >Fosforito</h4>
             </div>
+
+            <div className="seccion-proyectos-tarjeta">
+    
+    <a id="Carta-F" href="https://stockly-hpgo130fh-gianellas-projects-ed866b2f.vercel.app/"><img src={"https://cdn-icons-png.flaticon.com/512/685/685388.png"} alt=""/></a>
+    <h4 >Stockly</h4>
+       </div>
+
+     
         </div>
         </div>
         </>

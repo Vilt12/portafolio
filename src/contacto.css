@@ -124,6 +124,7 @@ font-size: 4vh;
         width: 80%;
         font-size: 1.3vh;
         margin-right: 2vh;
+        box-shadow: 5px 5px 0px 0px #019777, 5px 5px 5px 0px #ffffff ;
     }
 }
 

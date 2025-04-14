@@ -16,7 +16,7 @@ function Presentacion() {
           
         <div className="seccion-1-titulo">
 
-             <h1>Hola, soy Tomás, Desarrollador Junior.</h1>
+             <h1>Hola, soy Tomás, Desarrollador Frontend.</h1>
                 </div> 
                
       </div>

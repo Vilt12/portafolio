@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 .seccion-1{
   padding-bottom:5% ;
-
-  
   background: #000000; 
   background-size: cover;
   display: flex;
@@ -17,12 +15,13 @@
 }
 
 .seccion-1-titulo{
-
+  margin-top: 10%;
     font-size: 4vh;
     font-family: 'Tilt Neon', sans-serif;
   color: #ffffff;
 text-shadow: 0 0 10px #ffffff;
-   animation: rgb 2s alternate infinite;
+   animation: titulo 1s forwards;
+
 
 }
 .seccion-presentacion{
@@ -107,3 +106,4 @@ animation: foto 1s infinite alternate;
       transform: translateY(0px);
     }
 }
+
