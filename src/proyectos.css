@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 .seccion-proyectos{
    padding-bottom:5vh ;
-    background: #080716;
+   z-index: 100;
     display: inline-block;
     width: 100%;
 }

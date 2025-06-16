@@ -1,47 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.Caja-bienvenida h4{
+  color: #00adc4;
+}
+.Caja-bienvenida b{
+  color: violet;
+}
+
 .seccion-1{
   padding-bottom:5% ;
-  background: #000000; 
+  z-index: 100;
   background-size: cover;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
+  margin: 5% 0 0 0;
 
-
-
+  font-family: "Alumni Sans SC", sans-serif;
 }
 
 .seccion-1-titulo{
   margin-top: 10%;
     font-size: 4vh;
-    font-family: 'Tilt Neon', sans-serif;
-  color: #ffffff;
-text-shadow: 0 0 10px #ffffff;
-   animation: titulo 1s forwards;
 
+ width: 700px;
+
+
+}
+.iconos-presentacion{
+  width:750px ;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  flex-direction: column;
+ left: 45%;
+ top: 4%;
+ padding: 55px;
+ overflow: hidden;
+ z-index: -1;
+}
+.cajita-iconos{
+font-size: 34px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+
+}
+.cajita-iconos i{
+   height: 60px;
+   width: 60px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation: 1s iconos infinite alternate;
+transition: 0.3s;
+cursor: pointer;
+
+}
+.cajita-iconos i:nth-child(1){
+color: #00adc4;
+background: #005e6462;
+
+box-shadow: 0 0 5px #33e7ff;
+}
+
+.cajita-iconos i:nth-child(2){
+  color: #00bb19;
+  background: #00771a50;
+  box-shadow: 0 0 5px #00bb19;
+
+}
+
+.cajita-iconos i:nth-child(1):hover{
+  color: #00e1ff;
+  background: #00b5c262;
+  box-shadow: 0 0 15px #33e7ff;
+ 
+
+}
+.cajita-iconos i:nth-child(2):hover{
+  color: #00ff22;
+  background: #00ac2550;
+  box-shadow: 0 0 15px #00bb19;
+ 
 
 }
 .seccion-presentacion{
-    width: 50%;
-    color:#ff8800;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+  
     
 }
+.seccion-1-subtitulo{
+  color: #b6b6b6c2;
+  font-size: 26px;
+  font-weight: 300;
+ 
+}
+.seccion-1-descripcion{
+  font-size: 22px;
+  margin: 20px 0 0 0;
+  color: #b6b6b6ab;
+  font-weight: 200;
 
+}
+.seccion-1-titulo h1{
+  width: 700px;
+  font-family: "Alumni Sans SC", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(#33e7ff, #00a1b6);
+  -webkit-background-clip: text;
+  color: transparent;
+
+
+}
+.seccion-1-botones{
+  z-index: 1000;
+}
+.seccion-1-botones button{
+  font-family: "Alumni Sans SC", sans-serif;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(#000000,#161616);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  margin: 40px 15px 0 15px;
+  border-radius: 5px;
+  box-shadow:  0 0 5px #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.seccion-1-botones button:hover{
+background: #ffffff;
+color: #000000;
+}
 .seccion-1-presentacion{
   
     font-size: 2vh;
     font-family: 'Gruppo', sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 .seccion-1-presentacion img{
-  width: 20%;
-height: 30%;
-  border-radius: 5%;
-  border: 2px solid #ffffff;
+border-radius: 5%;
 margin-top: 10%;
-animation: foto 1s infinite alternate;
+transition: 0.3s;
+}
+.seccion-1-presentacion img:hover{
+  transform: rotateZ(10deg);
+  scale: 1.05;
 
 }
 @media (max-width: 920px) {
@@ -107,3 +221,103 @@ animation: foto 1s infinite alternate;
     }
 }
 
+@keyframes iconos {
+  0%{
+   scale: 1;
+  }
+  100%{
+scale: 1.1;
+  }
+  
+}
+@media (max-width:1440px){
+
+  .iconos-presentacion{
+  
+    width: 650px;
+    height: 500px;
+  
+ 
+    }
+}
+@media (max-width:1024px){
+  .seccion-presentacion{
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+  .seccion-1-presentacion img{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .iconos-presentacion{
+  
+    width: 950px;
+    height: 600px;
+    left: -2%;
+    right: 0;
+    }
+}
+@media (max-width:768px){
+  .seccion-presentacion{
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+  .seccion-1-descripcion{
+
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  align-items: center;
+  text-align: center;
+  width: 550px;
+  margin: 2% 0 0 10.5%;
+  }
+  .iconos-presentacion{
+  
+  width: 700px;
+  height: 500px;
+  left: -2%;
+  right: 0;
+  }
+  .iconos-presentacion i{
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width:578px){
+  .seccion-presentacion{
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+  
+  .seccion-1-descripcion{
+
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  align-items: center;
+  width: 300px;
+  margin: 2% 0 0 28.5%;
+  }
+  .iconos-presentacion{
+  
+  width: 400px;
+  height: 450px;
+  left: -10%;
+  right: 0;
+  }
+  .iconos-presentacion i{
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+  }
+}

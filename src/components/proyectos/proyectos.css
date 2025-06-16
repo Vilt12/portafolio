@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.seccion-proyectos{
+    padding: 5vh 0 5vh 0 ;
+    display: inline-block;
+    width: 100%;
+    z-index: 100;
+    font-family: "Alumni Sans SC", sans-serif;
+}
+.seccion-proyectos-titulo{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(#33e7ff, #00a1b6);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.seccion-proyectos-subtitulo{
+    text-align: center;
+    color: #929292;
+    margin: 25px 0 45px 0;
+    font-size: 18px;
+}
+.seccion-proyectos-datos{
+    text-align: center;
+    margin: 25px 0 75px 0;
+}
+.seccion-proyectos-datos p{
+    font-weight: bold;
+    background: linear-gradient(#33e7ff, #00a1b6);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 34px;
+}
+.seccion-proyectos-datos b{
+  
+    color: #929292; 
+}
+.seccion-proyectos-caja-tarjetas{
+    display: flex;
+    justify-content: center;
+   gap: 35px;
+   flex-wrap: wrap;
+
+}
+
+.seccion-proyectos-tarjetas{
+    
+    width: 350px;
+    overflow: hidden;
+    height: 450px;
+    border: solid  1px #060a3f;
+    border-radius: 10px;
+    font-family: "Alumni Sans SC", sans-serif;
+    background: #0000003b;
+   transition: 0.4s;
+ 
+   animation: rotacion calc(var(--i)*0.4s);
+}
+.seccion-proyectos-tarjetas.false{
+    
+   
+  
+}
+.seccion-proyectos-tarjetas:hover{
+scale: 1.05;
+box-shadow: 0 5px 15px #000000;
+transform: translateY(-20px);
+}
+a{
+    text-decoration: none;
+ 
+}
+.seccion-proyectos-tarjetas-imagen{
+
+}
+.seccion-proyectos-tarjetas-imagen img{
+    height:250px ; 
+    width: 400px;
+
+
+}
+.seccion-proyectos-tarjetas-informacion{
+    padding: 15px 25px 15px 25px;
+    color: #ffffff;
+}
+.seccion-proyectos-tarjetas-clasificacion{
+    display: flex;
+    justify-content: space-between;
+        color: #ffffff;
+}
+.seccion-proyectos-tarjetas-clasificacion b{
+    color: #33e7ff;
+    background: #33e7ff6b ;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 400;
+   border-radius: 25px;
+   text-align: center;
+   width: 40px;
+   
+ 
+}
+.seccion-proyectos-tarjetas-clasificacion p{
+    color: #2bdf70;
+
+  
+    font-weight: 400;
+
+   text-align: center;
+}
+.seccion-proyectos-tarjetas-titulo{
+  
+    color: #ffffff;
+    padding: 10px 0 0 0;
+   
+}
+.seccion-proyectos-tarjetas-titulo h4{
+    font-size: 24px;
+}
+
+.seccion-proyectos-tarjetas-descripcion{
+    padding: 20px 0 0 0 ;
+    font-size: 18px;
+    color: #929292;
+    font-weight: 500;
+}
+
+
+.seccion-proyectos-tarjetas-estado{
+    padding: 20px 0 0 0;
+    color: #808080;
+    font-size: 16px;
+}
+
+
+@keyframes rotacion{
+    0%{
+      
+  transform: translateX(calc(var(--i)*-200px));
+  opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+   
+    }
+}
+
+@media (max-width:578px){
+    .seccion-proyectos{
+
+    
+    }
+    
+}

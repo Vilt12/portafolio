@@ -1,27 +1,16 @@
 import "./conocimientos.css"
 
 function Conocimientos() {
-    function checkVisibility() {
-        const section = document.querySelector(".seccion-conocimientos");
-        const sectionTop = section.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-      
-        if (sectionTop < windowHeight / 1.5) {
-          section.classList.add("active");
-        } else {
-          section.classList.remove("active");
-        }
-      }
-      window.addEventListener("scroll", checkVisibility);
-window.addEventListener("load", checkVisibility);
+  
+    
+    
+    
+    
+    
     return(
         <>
         <div className="seccion-conocimientos">
-            <div className="seccion-conocimientos-titulo">
-                 <h4>
-                Conocimientos
-            </h4>
-            </div>
+            
            <div className="seccion-conocimientos-caja-img"> 
             <div className="seccion-conocimientos-imagenes">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt=""  height={"100px"} width={"100px"}/>
