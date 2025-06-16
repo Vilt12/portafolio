@@ -15,7 +15,7 @@ function ProyectosTom() {
     
   {Link:"https://foro-gold.vercel.app/", image:"Fosforito.png",  titulo:"Fosforito", descripcion:"Aplicacion para realizar publicaciones webs", tipo:"Foro web"  },
      
-  {Link:"https://tienda-lovat.vercel.app/", image:"Tienda.png",  titulo:"Tienda", descripcion:"Aplicacion para tienda o restaurante", tipo:"Gestion de tiendas"  },
+  {Link:"https://tienda-lovat.vercel.app/", image:"tienda.png",  titulo:"Tienda", descripcion:"Aplicacion para tienda o restaurante", tipo:"Gestion de tiendas"  },
      
   {Link:"https://stockly-qzul8tjbx-gianellas-projects-ed866b2f.vercel.app/", image:"Stockly.png",  titulo:"Stockly", descripcion:"Aplicacion de control de inventario", tipo:"Gestion de inventario"  }
      
