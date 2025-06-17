@@ -1,0 +1,10 @@
+.seccion-certificados{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    align-items: center;
+}
+.seccion-certificados img{
+    height: 400px;
+    width: 600px;
+}
